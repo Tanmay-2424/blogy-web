@@ -1,0 +1,86 @@
+.Container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem 2rem;
+  gap: 2rem;
+  background-color: #fdfdfd;
+  flex-wrap: wrap;
+  background-color: #b6afa5;
+}
+
+.mainPart{
+    flex-direction: row;
+}
+
+.article {
+  flex: 1;
+  font-size: 2.7rem;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #333;
+}
+
+.input {
+  flex: 1;
+  margin-top: 1rem;
+}
+
+.text {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+
+}
+
+.text input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  outline: none;
+  width: 60%;
+  font-size: 1.5rem;
+  background-color: antiquewhite;
+}
+
+.button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 30px; /* curve button */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+.button:hover {
+  background-color: #0059c1;
+}
+
+.h4 {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroImage {
+  max-width: 70%;
+  height: auto;
+  border-radius: 10px;
+  margin-left: 300px;
+}
+
+.bottomLine {
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  margin-top: 2rem;
+}
