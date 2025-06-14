@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
-import Footer from './components/footer/footer'
+import Footer from './components/footer/Footer'
 import HomePage from './pages/HomePage'
 import { Route, Routes } from 'react-router-dom'
 import RecentPost from './components/RecentPost/RecentPost'
